@@ -16,27 +16,21 @@ Tujuan Pembelajaran
 - Koneksi internet (untuk download package)
 
 *Instalasi Otomatis*
-1. Clone repository ini:
-git clone https://github.com/wbudi75/lab-hardening-nusantara.git
-cd lab-hardening-nusantara
-
-2. Jalankan script instalasi:
-chmod +x install.sh
-sudo ./install.sh
-
-3. Catat informasi server yang ditampilkan:
-IP Server: xxx.xxx.xxx.xxx
-User Admin: singkong | Password: goreng (sudo access)
+1. Clone repository ini: git clone https://github.com/wbudi75/lab-hardening-nusantara.git
+2. cd lab-hardening-nusantara
+3. Jalankan script instalasi: chmod +x install.sh
+4. sudo ./install.sh
+5. Catat informasi server yang ditampilkan: IP Server: xxx.xxx.xxx.xxx
+6. User Admin: singkong | Password: goreng (sudo access)
 
 *Instalasi Manual (Opsional)*
-Jika script otomatis gagal, instal manual:
-sudo apt update
-sudo apt install -y apache2 php libapache2-mod-php vsftpd openssh-server samba sudo
+1. Jika script otomatis gagal, instal manual:
+2. sudo apt update
+3. sudo apt install -y apache2 php libapache2-mod-php vsftpd openssh-server samba sudo
 
 
-*User Account*
-| Username  | Password | Hak Akses   |
-| singkong  | goreng   | sudo (root) |
+Username: singkong;
+Password: goreng
 
 *Tugas Hardening*
 1. **FTP Server (vsftpd)**
