@@ -46,26 +46,6 @@ sudo apt install -y apache2 php libapache2-mod-php vsftpd openssh-server samba s
 | singkong  | goreng   | sudo (root) |
 
 
-*Struktur File*
-lab-hardening-nusantara/
-├── README.md              # Dokumentasi ini
-├── install.sh                      # Script instalasi otomatis
-├── aseli.html                     # File HTML (akan dipindah ke /opt/)
-├── conf/                            # Konfigurasi layanan rentan
-│   ├── smb.conf                # Konfigurasi Samba
-│   ├── sshd_config           # Konfigurasi SSH
-│   └── vsftpd.conf             # Konfigurasi FTP
-└── web/                            # File website
-    ├── images/                   # Asset gambar
-    ├── index.html               # Homepage
-    ├── script.js                   # JavaScript
-    └── style.css                 # Styling
-
-
-
-
-
-
 
 
 Tugas Hardening
