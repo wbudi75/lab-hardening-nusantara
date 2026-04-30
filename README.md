@@ -10,19 +10,19 @@ Tujuan Pembelajaran
 - Memahami prinsip least privilege
 - Menerapkan security best practices pada Linux server
 
-Layanan yang Tersedia
+*Layanan yang Tersedia*
 | Layanan   | Port  | Status  |
 | Apache Web Server | 80 | Aktif    |
 | vsftpd (FTP)   | 21  | Rentan |
 | OpenSSH   | 22  | Rentan |
 | Samba   | 445  | Rentan |
 
-Prerequisites
+*Prerequisites*
 - Sistem operasi Debian-based
 - Akses root atau sudo
 - Koneksi internet (untuk download package)
 
-Instalasi Otomatis
+*Instalasi Otomatis*
 1. Clone repository ini:
 git clone https://github.com/wbudi75/lab-hardening-nusantara.git
 cd lab-hardening-nusantara
@@ -35,7 +35,7 @@ sudo ./install.sh
 IP Server: xxx.xxx.xxx.xxx
 User Admin: singkong | Password: goreng (sudo access)
 
-Instalasi Manual (Opsional)
+*Instalasi Manual (Opsional)*
 Jika script otomatis gagal, instal manual:
 sudo apt update
 sudo apt install -y apache2 php libapache2-mod-php vsftpd openssh-server samba sudo
@@ -45,10 +45,7 @@ sudo apt install -y apache2 php libapache2-mod-php vsftpd openssh-server samba s
 | Username  | Password | Hak Akses   |
 | singkong  | goreng   | sudo (root) |
 
-
-
-
-Tugas Hardening
+*Tugas Hardening*
 1. **FTP Server (vsftpd)**
 **Kerentanan:**
 - Anonymous FTP login enabled
@@ -92,7 +89,8 @@ Tugas Hardening
 - [ ] Hide server signature
 - [ ] Setup HTTPS/SSL
 - [ ] Configure security headers
-⚠️ **PERINGATAN**: 
+      
+ **PERINGATAN**: 
 - Script ini sengaja membuat konfigurasi **TIDAK AMAN** untuk tujuan pembelajaran
 - **JANGAN** gunakan konfigurasi default dari script ini di production
 - Selalu test di lingkungan terisolasi (VM/Lab)
