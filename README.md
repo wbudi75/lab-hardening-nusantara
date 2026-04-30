@@ -10,13 +10,6 @@ Tujuan Pembelajaran
 - Memahami prinsip least privilege
 - Menerapkan security best practices pada Linux server
 
-*Layanan yang Tersedia*
-| Layanan   | Port  | Status  |
-| Apache Web Server | 80 | Aktif    |
-| vsftpd (FTP)   | 21  | Rentan |
-| OpenSSH   | 22  | Rentan |
-| Samba   | 445  | Rentan |
-
 *Prerequisites*
 - Sistem operasi Debian-based
 - Akses root atau sudo
